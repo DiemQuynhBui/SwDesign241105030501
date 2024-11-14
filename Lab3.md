@@ -75,7 +75,7 @@ Bảng ánh xạ các phần tử thiết kế vào các gói.
 + Domain Layer: Domain Model: Các mô hình nghiệp vụ, định nghĩa các quy tắc và logic nghiệp vụ của hệ thống.
 + Infrastructure Layer: Database Access: Thành phần truy cập cơ sở dữ liệu, quản lý việc lưu trữ và truy xuất dữ liệu.
 + External Service Integration: Thành phần tích hợp với các dịch vụ bên ngoài, như API bên thứ ba.
-- Mối quan hệ giữa các lớp:
+## Mối quan hệ giữa các lớp:
 + UI Component sử dụng Application Service để thực hiện các yêu cầu từ người dùng.
 + Application Service điều phối các hoạt động của Domain Model và tích hợp với External Service Integration.
 + Domain Model tương tác với Database Access để lưu trữ và truy xuất dữ liệu.
