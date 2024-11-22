@@ -2,7 +2,7 @@
 # 1. Giới thiệu
 Tài liệu trình bày chi tiết về thiết kế hệ thống Payroll System với các tính năng chính như Login, Maintain Timecard và  Run Payroll hệ thống nhằm mục tiêu giảm thiểu sai sót trong việc xử lý lương, tăng hiệu suất quản lý thời gian và chi phí, đảm bảo tính minh bạch và bảo mật dữ liệu.
 # 2. Các bước thực hiện
-## 2.1 Describe Interaction Among Design Objects
+## 2.1. Describe Interaction Among Design Objects
 ### Mô tả cách các đối tượng thiết kế tương tác để thực hiện từng ca sử dụng:
 ### Ca sử dụng: Login
 **Mục tiêu**: Xác thực thông tin người dùng để cấp quyền truy cập hệ thống.
@@ -70,7 +70,7 @@ Tài liệu trình bày chi tiết về thiết kế hệ thống Payroll System
 **Ví dụ biểu đồ trình tự: Ca sử dụng Run Payroll**
   ![diagram](https://www.planttext.com/api/plantuml/png/X5DBJiD03DtFARnC9BX05wYY1QaII4XmWUd4eQFE9tASHSx6WYDn1IOJt5Hj4xBmo6E_vsUFy_FrlMvP4tVUAMqu4hptBQFVk6YEIkrZ5ofDFRpfdg9pcnXuE94K1hRSmvDlNEmHnV-m7escIlm4D0TCN7_-emx7iSGPETd0IBl1rDgWKcSYuFxXkleAikgYL5UXcVnFP97wOji1gLoC3Jodbb6R0w0q0kcxoIgjPJ9n2i7jjcM6Ic161o5t581bJBFLRc2DTgPpcZ752c4e5odox1EICC4AxTF8UG4X8yejfWoVNkqL-H2hOaHbent3rXAQT60JMylvUfPrUlCLL2EW46rti4_HNQXZUIAPykS64KDjoGjP1g9hSToaPJ6NoxQ2PhWv2PfaN6R-8wOvrSOmh7-briaCFzOl0000__y30000)
   
-## 2.3 Describe Persistence-Related Behavior
+## 2.3. Describe Persistence-Related Behavior
 
    #### Các thực thể cần được lưu trữ:
 + **Employee**: Thông tin cá nhân, phương thức thanh toán.
@@ -92,7 +92,7 @@ Tài liệu trình bày chi tiết về thiết kế hệ thống Payroll System
   
 + Các thông tin này sẽ được lưu trữ vào **EmployeeDatabase** thông qua **EmployeeController**, cho phép dễ dàng truy xuất và chỉnh sửa sau này.
   
-## 2.4 Refine the Flow of Events Description
+## 2.4. Refine the Flow of Events Description
 
 **Flow of Events: Run Payroll**
 
@@ -114,7 +114,7 @@ Tính toán dựa trên loại nhân viên:
 **4. Thực hiện thanh toán:**
 + **Paycheck** được tạo và xử lý qua **BankSystem** hoặc in qua **PrintService**.
   
-## 2.5 Unify Classes and Subsystems
+## 2.5. Unify Classes and Subsystems
 
   #### Tổ chức các lớp và hệ thống con:
   
