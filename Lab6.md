@@ -57,7 +57,9 @@
       
          Tạo phiếu lương cho nhân viên.
        
-    +  **processPayment(paycheck: Paycheck)**: void: Xử lý thanh toán.
+    +  **processPayment(paycheck: Paycheck): void**
+      
+         Xử lý thanh toán.
 
 #### Lớp Employee
 + **Chức năng**: Quản lý thông tin cá nhân và phương thức thanh toán của nhân viên.
@@ -66,7 +68,9 @@
       
          Lấy phương thức thanh toán(e.g., "bank" hoặc "print").
        
-    +  **getEmployeeDetails(): Map<String, String>**: Lấy thông tin nhân viên.
+    +  **getEmployeeDetails(): Map<String, String>**
+      
+         Lấy thông tin nhân viên.
 
 #### Lớp Timecard
 + **Chức năng**: Lưu trữ và quản lý giờ làm việc theo mã dự án.
@@ -75,9 +79,13 @@
       
          Tính tổng giờ làm việc.
        
-    +  **addHours(chargeNum: ChargeNum, hours: float): void:** Thêm giờ làm việc vào dự án.
+    +  **addHours(chargeNum: ChargeNum, hours: float): void**
       
-    +  **removeHours(chargeNum: ChargeNum): void:** Xóa giờ làm việc khỏi dự án.
+         Thêm giờ làm việc vào dự án.
+      
+    +  **removeHours(chargeNum: ChargeNum): void**
+      
+         Xóa giờ làm việc khỏi dự án.
 
 ## 2. Xác định đúng các trạng thái và mô tả sự thay đổi trạng thái
 ### 2.1. Lớp Paycheck
