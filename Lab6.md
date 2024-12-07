@@ -28,7 +28,7 @@
           Xử lý hàng đợi để in phiếu lương.
 
 #### Lớp ProjectManagementDatabase
-+ **Chức năng** Quản lý bảng chấm công và mã dự án.
++ **Chức năng**: Quản lý bảng chấm công và mã dự án.
 + **Phương thức**:
     +  **getChargeNumbers(criteria: String): List<ChargeNum>**
       
@@ -64,7 +64,7 @@
 + **Phương thức**:
     +  **getPaymentMethod(): String**
       
-         Lấy phương thức thanh toán. (e.g., "bank" hoặc "print").
+         Lấy phương thức thanh toán(e.g., "bank" hoặc "print").
        
     +  **getEmployeeDetails(): Map<String, String>**: Lấy thông tin nhân viên.
 
